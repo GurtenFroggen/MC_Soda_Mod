@@ -1,0 +1,398 @@
+{
+  "mod_elements": [
+    {
+      "name": "AluminiumIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/item/aluminium_ingot.json",
+          "src/main/java/net/mcreator/soda/item/AluminiumIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/loot_tables/blocks/aluminium_block.json",
+          "src/main/java/net/mcreator/soda/block/AluminiumBlockBlock.java",
+          "src/main/resources/assets/soda/models/block/aluminium_block.json",
+          "src/main/resources/assets/soda/blockstates/aluminium_block.json",
+          "src/main/resources/assets/soda/models/item/aluminium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngotToBlock",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_to_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_ingot_to_block.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumBlockToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_block_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_block_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/loot_tables/blocks/aluminium_ore.json",
+          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
+          "src/main/resources/assets/soda/models/item/aluminium_ore.json",
+          "src/main/java/net/mcreator/soda/block/AluminiumOreBlock.java",
+          "src/main/resources/data/soda/forge/biome_modifier/aluminium_ore_biome_modifier.json",
+          "src/main/resources/assets/soda/blockstates/aluminium_ore.json",
+          "src/main/resources/data/soda/worldgen/configured_feature/aluminium_ore.json",
+          "src/main/resources/data/soda/worldgen/placed_feature/aluminium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawAluminium",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_aluminium",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/item/RawAluminiumItem.java",
+          "src/main/resources/assets/soda/models/item/raw_aluminium.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngotRawSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_raw_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_ingot_raw_smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngotOreSmelt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_ore_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_ingot_ore_smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngotRawBlast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_raw_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_ingot_raw_blast.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngotOreBlast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_ore_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_ingot_ore_blast.json"
+        ]
+      }
+    },
+    {
+      "name": "Co2Cartridge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_cartridge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/item/co_2_cartridge.json",
+          "src/main/java/net/mcreator/soda/item/Co2CartridgeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cartridge",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cartridge",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/item/cartridge.json",
+          "src/main/java/net/mcreator/soda/item/CartridgeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Co2Collector",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_collector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector.json",
+          "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
+          "src/main/resources/assets/soda/models/block/co_2_collector.json",
+          "src/main/resources/assets/soda/models/item/co_2_collector.json",
+          "src/main/resources/assets/soda/blockstates/co_2_collector.json"
+        ]
+      }
+    },
+    {
+      "name": "Co2CollectorFull",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_collector_full",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/block/Co2CollectorFullBlock.java",
+          "src/main/resources/assets/soda/models/block/co_2_collector_full.json",
+          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector_full.json",
+          "src/main/resources/assets/soda/models/item/co_2_collector_full.json",
+          "src/main/resources/assets/soda/blockstates/co_2_collector_full.json"
+        ]
+      }
+    },
+    {
+      "name": "Co2CollectorRightClick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_collector_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/procedures/Co2CollectorRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Co2CollectorFire",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_collector_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/procedures/Co2CollectorFireProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AluminiumNugget",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/item/aluminium_nugget.json",
+          "src/main/java/net/mcreator/soda/item/AluminiumNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumIngotToNugget",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_ingot_to_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_ingot_to_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "AluminiumNuggetToIngot",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aluminium_nugget_to_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/aluminium_nugget_to_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "BottleCap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_cap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/item/BottleCapItem.java",
+          "src/main/resources/assets/soda/models/item/bottle_cap.json"
+        ]
+      }
+    },
+    {
+      "name": "GlassSodaBottle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_soda_bottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/item/glass_soda_bottle.json",
+          "src/main/java/net/mcreator/soda/item/GlassSodaBottleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GlassSodaBottleRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass_soda_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/glass_soda_bottle_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Co2CollectorFull",
+      "~CUSTOM:Co2Collector",
+      "~CUSTOM:AluminiumOre",
+      "~CUSTOM:AluminiumBlock"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:AluminiumOre",
+      "~CUSTOM:AluminiumBlock"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.soda.aluminium_ore": "Aluminium Ore",
+      "item.soda.cartridge": "Cartridge",
+      "item.soda.glass_soda_bottle": "Glass Soda Bottle",
+      "item.dr_pepper.aluminium_nugget": "Aluminium Nugget",
+      "item.soda.aluminium_nugget": "Aluminium Nugget",
+      "block.soda.co_2_collector": "CO2 Collector",
+      "item.dr_pepper.cartridge": "Cartridge",
+      "item.dr_pepper.co_2_cartridge": "CO2 Cartridge",
+      "block.soda.aluminium_block": "Block of Aluminium",
+      "block.soda.co_2_collector_full": "CO2 Collector Full",
+      "block.dr_pepper.co_2_collector": "CO2 Collector",
+      "item.dr_pepper.raw_aluminium": "Raw Aluminium",
+      "item.dr_pepper.glass_soda_bottle": "Glass Soda Bottle",
+      "item.soda.aluminium_ingot": "Aluminium Ingot",
+      "block.dr_pepper.aluminium_block": "Block of Aluminium",
+      "item.soda.co_2_cartridge": "CO2 Cartridge",
+      "item.soda.raw_aluminium": "Raw Aluminium",
+      "item.soda.bottle_cap": "Bottle Cap",
+      "item.dr_pepper.aluminium_ingot": "Aluminium Ingot",
+      "block.dr_pepper.aluminium_ore": "Aluminium Ore",
+      "block.dr_pepper.co_2_collector_full": "CO2 Collector Full",
+      "item.dr_pepper.bottle_cap": "Bottle Cap"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "soda",
+    "modName": "Soda",
+    "version": "1.0.0",
+    "author": "graem, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.soda"
+  },
+  "mcreatorVersion": 202400228714
+}

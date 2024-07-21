@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "soda:blocks/co_2_collector",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soda:co_2_collector"
+        }
+      ]
+    }
+  ]
+}

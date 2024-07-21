@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "soda:bottle_cap"
+    },
+    "b": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "item": "soda:glass_soda_bottle",
+    "count": 1
+  }
+}

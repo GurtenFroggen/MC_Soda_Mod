@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soda:block/aluminium_ore",
+    "up": "soda:block/aluminium_ore",
+    "north": "soda:block/aluminium_ore",
+    "east": "soda:block/aluminium_ore",
+    "south": "soda:block/aluminium_ore",
+    "west": "soda:block/aluminium_ore",
+    "particle": "soda:block/aluminium_ore"
+  },
+  "render_type": "solid"
+}
