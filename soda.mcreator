@@ -388,7 +388,8 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "mcreator_link"
+      "mcreator_link",
+      "jei"
     ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
