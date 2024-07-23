@@ -10,7 +10,6 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
-import net.mcreator.soda.block.Co2CollectorFullBlock;
 import net.mcreator.soda.block.Co2CollectorBlock;
 import net.mcreator.soda.block.AluminiumOreBlock;
 import net.mcreator.soda.block.AluminiumBlockBlock;
@@ -21,7 +20,6 @@ public class SodaModBlocks {
 	public static final RegistryObject<Block> ALUMINIUM_BLOCK = REGISTRY.register("aluminium_block", () -> new AluminiumBlockBlock());
 	public static final RegistryObject<Block> ALUMINIUM_ORE = REGISTRY.register("aluminium_ore", () -> new AluminiumOreBlock());
 	public static final RegistryObject<Block> CO_2_COLLECTOR = REGISTRY.register("co_2_collector", () -> new Co2CollectorBlock());
-	public static final RegistryObject<Block> CO_2_COLLECTOR_FULL = REGISTRY.register("co_2_collector_full", () -> new Co2CollectorFullBlock());
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
 }

@@ -171,6 +171,7 @@
           "src/main/resources/data/soda/loot_tables/blocks/co_2_collector.json",
           "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
           "src/main/resources/assets/soda/models/item/co_2_collector.json",
+          "src/main/java/net/mcreator/soda/block/entity/Co2CollectorBlockEntity.java",
           "src/main/resources/assets/soda/blockstates/co_2_collector.json"
         ]
       }
@@ -183,11 +184,11 @@
       "registry_name": "co_2_collector_full",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soda/models/item/co_2_collector_full.json",
-          "src/main/resources/assets/soda/blockstates/co_2_collector_full.json",
-          "src/main/resources/assets/soda/models/block/co_2_collector_full.json",
           "src/main/java/net/mcreator/soda/block/Co2CollectorFullBlock.java",
-          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector_full.json"
+          "src/main/resources/assets/soda/models/block/co_2_collector_full.json",
+          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector_full.json",
+          "src/main/resources/assets/soda/models/item/co_2_collector_full.json",
+          "src/main/resources/assets/soda/blockstates/co_2_collector_full.json"
         ]
       }
     },
@@ -263,8 +264,8 @@
       "registry_name": "aluminium_nugget",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/soda/item/AluminiumNuggetItem.java",
-          "src/main/resources/assets/soda/models/item/aluminium_nugget.json"
+          "src/main/resources/assets/soda/models/item/aluminium_nugget.json",
+          "src/main/java/net/mcreator/soda/item/AluminiumNuggetItem.java"
         ]
       }
     },
@@ -327,6 +328,44 @@
       "metadata": {
         "files": [
           "src/main/resources/data/soda/recipes/glass_soda_bottle_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BottleCapRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_cap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/bottle_cap_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Co2Blockstate",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/co_2_blockstate_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/worldgen/configured_feature/lime_tree.json",
+          "src/main/resources/data/soda/worldgen/placed_feature/lime_tree.json",
+          "src/main/resources/data/soda/forge/biome_modifier/lime_tree_biome_modifier.json"
         ]
       }
     }
@@ -392,5 +431,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.soda"
   },
-  "mcreatorVersion": 202400229712
+  "mcreatorVersion": 202400228714
 }

@@ -30,7 +30,6 @@ public class SodaModItems {
 	public static final RegistryObject<Item> CO_2_CARTRIDGE = REGISTRY.register("co_2_cartridge", () -> new Co2CartridgeItem());
 	public static final RegistryObject<Item> CARTRIDGE = REGISTRY.register("cartridge", () -> new CartridgeItem());
 	public static final RegistryObject<Item> CO_2_COLLECTOR = block(SodaModBlocks.CO_2_COLLECTOR);
-	public static final RegistryObject<Item> CO_2_COLLECTOR_FULL = block(SodaModBlocks.CO_2_COLLECTOR_FULL);
 	public static final RegistryObject<Item> ALUMINIUM_NUGGET = REGISTRY.register("aluminium_nugget", () -> new AluminiumNuggetItem());
 	public static final RegistryObject<Item> BOTTLE_CAP = REGISTRY.register("bottle_cap", () -> new BottleCapItem());
 	public static final RegistryObject<Item> GLASS_SODA_BOTTLE = REGISTRY.register("glass_soda_bottle", () -> new GlassSodaBottleItem());

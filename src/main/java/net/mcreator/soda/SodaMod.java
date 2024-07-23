@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.soda.init.SodaModTabs;
 import net.mcreator.soda.init.SodaModItems;
 import net.mcreator.soda.init.SodaModBlocks;
+import net.mcreator.soda.init.SodaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,7 +43,7 @@ public class SodaMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		SodaModBlocks.REGISTRY.register(bus);
-
+		SodaModBlockEntities.REGISTRY.register(bus);
 		SodaModItems.REGISTRY.register(bus);
 
 		SodaModTabs.REGISTRY.register(bus);

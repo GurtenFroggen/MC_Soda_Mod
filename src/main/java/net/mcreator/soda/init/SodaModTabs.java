@@ -25,7 +25,6 @@ public class SodaModTabs {
 			tabData.accept(SodaModBlocks.ALUMINIUM_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(SodaModBlocks.CO_2_COLLECTOR.get().asItem());
-			tabData.accept(SodaModBlocks.CO_2_COLLECTOR_FULL.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(SodaModItems.ALUMINIUM_INGOT.get());
 			tabData.accept(SodaModItems.RAW_ALUMINIUM.get());
