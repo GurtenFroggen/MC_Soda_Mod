@@ -338,6 +338,20 @@
           "src/main/resources/data/soda/recipes/bottle_cap_recipe.json"
         ]
       }
+    },
+    {
+      "name": "LimeTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/worldgen/configured_feature/lime_tree.json",
+          "src/main/resources/data/soda/forge/biome_modifier/lime_tree_biome_modifier.json",
+          "src/main/resources/data/soda/worldgen/placed_feature/lime_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
