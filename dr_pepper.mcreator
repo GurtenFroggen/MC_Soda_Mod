@@ -22,10 +22,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/soda/loot_tables/blocks/aluminium_block.json",
-          "src/main/java/net/mcreator/soda/block/AluminiumBlockBlock.java",
-          "src/main/resources/assets/soda/models/block/aluminium_block.json",
+          "src/main/resources/assets/soda/models/item/aluminium_block.json",
           "src/main/resources/assets/soda/blockstates/aluminium_block.json",
-          "src/main/resources/assets/soda/models/item/aluminium_block.json"
+          "src/main/java/net/mcreator/soda/block/AluminiumBlockBlock.java",
+          "src/main/resources/assets/soda/models/block/aluminium_block.json"
         ]
       }
     },
@@ -61,14 +61,14 @@
       "registry_name": "aluminium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/soda/loot_tables/blocks/aluminium_ore.json",
-          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
-          "src/main/resources/assets/soda/models/item/aluminium_ore.json",
-          "src/main/java/net/mcreator/soda/block/AluminiumOreBlock.java",
           "src/main/resources/data/soda/forge/biome_modifier/aluminium_ore_biome_modifier.json",
-          "src/main/resources/assets/soda/blockstates/aluminium_ore.json",
+          "src/main/resources/data/soda/worldgen/placed_feature/aluminium_ore.json",
+          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
           "src/main/resources/data/soda/worldgen/configured_feature/aluminium_ore.json",
-          "src/main/resources/data/soda/worldgen/placed_feature/aluminium_ore.json"
+          "src/main/resources/data/soda/loot_tables/blocks/aluminium_ore.json",
+          "src/main/resources/assets/soda/blockstates/aluminium_ore.json",
+          "src/main/java/net/mcreator/soda/block/AluminiumOreBlock.java",
+          "src/main/resources/assets/soda/models/item/aluminium_ore.json"
         ]
       }
     },
@@ -167,9 +167,9 @@
       "registry_name": "co_2_collector",
       "metadata": {
         "files": [
+          "src/main/resources/assets/soda/models/block/co_2_collector.json",
           "src/main/resources/data/soda/loot_tables/blocks/co_2_collector.json",
           "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
-          "src/main/resources/assets/soda/models/block/co_2_collector.json",
           "src/main/resources/assets/soda/models/item/co_2_collector.json",
           "src/main/resources/assets/soda/blockstates/co_2_collector.json"
         ]
@@ -183,11 +183,11 @@
       "registry_name": "co_2_collector_full",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/soda/block/Co2CollectorFullBlock.java",
-          "src/main/resources/assets/soda/models/block/co_2_collector_full.json",
-          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector_full.json",
           "src/main/resources/assets/soda/models/item/co_2_collector_full.json",
-          "src/main/resources/assets/soda/blockstates/co_2_collector_full.json"
+          "src/main/resources/assets/soda/blockstates/co_2_collector_full.json",
+          "src/main/resources/assets/soda/models/block/co_2_collector_full.json",
+          "src/main/java/net/mcreator/soda/block/Co2CollectorFullBlock.java",
+          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector_full.json"
         ]
       }
     },
@@ -263,8 +263,8 @@
       "registry_name": "aluminium_nugget",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soda/models/item/aluminium_nugget.json",
-          "src/main/java/net/mcreator/soda/item/AluminiumNuggetItem.java"
+          "src/main/java/net/mcreator/soda/item/AluminiumNuggetItem.java",
+          "src/main/resources/assets/soda/models/item/aluminium_nugget.json"
         ]
       }
     },
@@ -392,5 +392,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.soda"
   },
-  "mcreatorVersion": 202400228714
+  "mcreatorVersion": 202400229712
 }
