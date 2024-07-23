@@ -21,11 +21,11 @@
       "registry_name": "aluminium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/soda/loot_tables/blocks/aluminium_block.json",
           "src/main/java/net/mcreator/soda/block/AluminiumBlockBlock.java",
+          "src/main/resources/assets/soda/models/item/aluminium_block.json",
           "src/main/resources/assets/soda/models/block/aluminium_block.json",
-          "src/main/resources/assets/soda/blockstates/aluminium_block.json",
-          "src/main/resources/assets/soda/models/item/aluminium_block.json"
+          "src/main/resources/data/soda/loot_tables/blocks/aluminium_block.json",
+          "src/main/resources/assets/soda/blockstates/aluminium_block.json"
         ]
       }
     },
@@ -61,13 +61,13 @@
       "registry_name": "aluminium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/soda/loot_tables/blocks/aluminium_ore.json",
-          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
-          "src/main/resources/assets/soda/models/item/aluminium_ore.json",
-          "src/main/java/net/mcreator/soda/block/AluminiumOreBlock.java",
           "src/main/resources/data/soda/forge/biome_modifier/aluminium_ore_biome_modifier.json",
-          "src/main/resources/assets/soda/blockstates/aluminium_ore.json",
           "src/main/resources/data/soda/worldgen/configured_feature/aluminium_ore.json",
+          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
+          "src/main/resources/data/soda/loot_tables/blocks/aluminium_ore.json",
+          "src/main/resources/assets/soda/blockstates/aluminium_ore.json",
+          "src/main/java/net/mcreator/soda/block/AluminiumOreBlock.java",
+          "src/main/resources/assets/soda/models/item/aluminium_ore.json",
           "src/main/resources/data/soda/worldgen/placed_feature/aluminium_ore.json"
         ]
       }
@@ -80,8 +80,8 @@
       "registry_name": "raw_aluminium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/soda/item/RawAluminiumItem.java",
-          "src/main/resources/assets/soda/models/item/raw_aluminium.json"
+          "src/main/resources/assets/soda/models/item/raw_aluminium.json",
+          "src/main/java/net/mcreator/soda/item/RawAluminiumItem.java"
         ]
       }
     },
@@ -141,8 +141,8 @@
       "registry_name": "co_2_cartridge",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soda/models/item/co_2_cartridge.json",
-          "src/main/java/net/mcreator/soda/item/Co2CartridgeItem.java"
+          "src/main/java/net/mcreator/soda/item/Co2CartridgeItem.java",
+          "src/main/resources/assets/soda/models/item/co_2_cartridge.json"
         ]
       }
     },
@@ -154,8 +154,8 @@
       "registry_name": "cartridge",
       "metadata": {
         "files": [
-          "src/main/resources/assets/soda/models/item/cartridge.json",
-          "src/main/java/net/mcreator/soda/item/CartridgeItem.java"
+          "src/main/java/net/mcreator/soda/item/CartridgeItem.java",
+          "src/main/resources/assets/soda/models/item/cartridge.json"
         ]
       }
     },
@@ -167,27 +167,12 @@
       "registry_name": "co_2_collector",
       "metadata": {
         "files": [
-          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector.json",
-          "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
-          "src/main/resources/assets/soda/models/block/co_2_collector.json",
           "src/main/resources/assets/soda/models/item/co_2_collector.json",
+          "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
+          "src/main/java/net/mcreator/soda/block/entity/Co2CollectorBlockEntity.java",
+          "src/main/resources/assets/soda/models/block/co_2_collector.json",
+          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector.json",
           "src/main/resources/assets/soda/blockstates/co_2_collector.json"
-        ]
-      }
-    },
-    {
-      "name": "Co2CollectorFull",
-      "type": "block",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "co_2_collector_full",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/soda/block/Co2CollectorFullBlock.java",
-          "src/main/resources/assets/soda/models/block/co_2_collector_full.json",
-          "src/main/resources/data/soda/loot_tables/blocks/co_2_collector_full.json",
-          "src/main/resources/assets/soda/models/item/co_2_collector_full.json",
-          "src/main/resources/assets/soda/blockstates/co_2_collector_full.json"
         ]
       }
     },
@@ -329,13 +314,36 @@
           "src/main/resources/data/soda/recipes/glass_soda_bottle_recipe.json"
         ]
       }
+    },
+    {
+      "name": "Co2Blockstate",
+      "type": "blockstates",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "co_2_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/co_2_blockstate_blockstate_0.json"
+        ]
+      }
+    },
+    {
+      "name": "BottleCapRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_cap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/bottle_cap_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:Co2CollectorFull",
       "~CUSTOM:Co2Collector",
       "~CUSTOM:AluminiumOre",
       "~CUSTOM:AluminiumBlock"
@@ -357,7 +365,6 @@
       "item.dr_pepper.cartridge": "Cartridge",
       "item.dr_pepper.co_2_cartridge": "CO2 Cartridge",
       "block.soda.aluminium_block": "Block of Aluminium",
-      "block.soda.co_2_collector_full": "CO2 Collector Full",
       "block.dr_pepper.co_2_collector": "CO2 Collector",
       "item.dr_pepper.raw_aluminium": "Raw Aluminium",
       "item.dr_pepper.glass_soda_bottle": "Glass Soda Bottle",

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "soda:aluminium_nugget"
+    }
+  },
+  "result": {
+    "item": "soda:bottle_cap",
+    "count": 1
+  }
+}

@@ -2,12 +2,12 @@
   "_fv": 66,
   "_type": "block",
   "definition": {
-    "texture": "minecraft:dispenser_front_vertical",
-    "textureTop": "minecraft:piston_bottom",
-    "textureLeft": "minecraft:observer_side",
-    "textureFront": "minecraft:observer_side",
-    "textureRight": "minecraft:observer_side",
-    "textureBack": "minecraft:observer_side",
+    "texture": "hole",
+    "textureTop": "unlit",
+    "textureLeft": "side",
+    "textureFront": "side",
+    "textureRight": "side",
+    "textureBack": "side",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -60,7 +60,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 100,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -104,7 +104,7 @@
     "unbreakable": false,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,
-    "hasInventory": false,
+    "hasInventory": true,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
     "inventorySize": 9,
@@ -121,7 +121,10 @@
     "isFluidTank": false,
     "fluidCapacity": 1000,
     "fluidRestrictions": [],
-    "onRandomUpdateEvent": {
+    "onRightClicked": {
+      "name": "Co2CollectorRightClick"
+    },
+    "onTickUpdate": {
       "name": "Co2CollectorFire"
     },
     "generateFeature": false,

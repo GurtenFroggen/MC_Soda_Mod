@@ -2,7 +2,7 @@
   "parent": "block/cube",
   "textures": {
     "down": "soda:block/hole",
-    "up": "soda:block/unlit",
+    "up": "soda:block/lit",
     "north": "soda:block/side",
     "east": "soda:block/side",
     "south": "soda:block/side",

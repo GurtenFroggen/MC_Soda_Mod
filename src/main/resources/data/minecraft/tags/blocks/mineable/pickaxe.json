@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "soda:co_2_collector_full",
     "soda:co_2_collector",
     "soda:aluminium_ore",
     "soda:aluminium_block"

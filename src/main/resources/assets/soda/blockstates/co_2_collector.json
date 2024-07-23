@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "soda:block/co_2_collector"
+    },
+    "blockstate=1": {
+      "model": "soda:block/co_2_blockstate_blockstate_0"
     }
   }
 }

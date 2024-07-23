@@ -1,0 +1,22 @@
+{
+  "_fv": 66,
+  "_type": "blockstates",
+  "definition": {
+    "block": "Co2Collector",
+    "blockstateList": [
+      {
+        "texture": "hole",
+        "textureTop": "lit",
+        "textureLeft": "side",
+        "textureFront": "side",
+        "textureRight": "side",
+        "textureBack": "side",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}
