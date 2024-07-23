@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "soda:block/citrus_planks",
+    "bottom": "soda:block/citrus_planks",
+    "top": "soda:block/citrus_planks",
+    "side": "soda:block/citrus_planks"
+  },
+  "render_type": "solid"
+}

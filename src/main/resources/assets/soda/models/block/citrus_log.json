@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "soda:block/citrus_log_top",
+    "up": "soda:block/citrus_log_top",
+    "north": "soda:block/citrus_log_side",
+    "east": "soda:block/citrus_log_side",
+    "south": "soda:block/citrus_log_side",
+    "west": "soda:block/citrus_log_side",
+    "particle": "soda:block/citrus_log_top"
+  },
+  "render_type": "solid"
+}

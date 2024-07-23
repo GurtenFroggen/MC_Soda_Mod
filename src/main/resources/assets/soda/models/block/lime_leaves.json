@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "soda:block/lime_leaves",
+    "particle": "soda:block/lime_leaves"
+  }
+}

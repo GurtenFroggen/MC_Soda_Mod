@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soda:block/citrus_slab"
+    },
+    "type=top": {
+      "model": "soda:block/citrus_slab_top"
+    },
+    "type=double": {
+      "model": "soda:block/citrus_slab_full"
+    }
+  }
+}

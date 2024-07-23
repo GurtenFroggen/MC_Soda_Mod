@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.soda.item.RawAluminiumItem;
+import net.mcreator.soda.item.LimeItem;
 import net.mcreator.soda.item.GlassSodaBottleItem;
 import net.mcreator.soda.item.Co2CartridgeItem;
 import net.mcreator.soda.item.CartridgeItem;
@@ -33,6 +34,17 @@ public class SodaModItems {
 	public static final RegistryObject<Item> ALUMINIUM_NUGGET = REGISTRY.register("aluminium_nugget", () -> new AluminiumNuggetItem());
 	public static final RegistryObject<Item> BOTTLE_CAP = REGISTRY.register("bottle_cap", () -> new BottleCapItem());
 	public static final RegistryObject<Item> GLASS_SODA_BOTTLE = REGISTRY.register("glass_soda_bottle", () -> new GlassSodaBottleItem());
+	public static final RegistryObject<Item> CITRUS_WOOD = block(SodaModBlocks.CITRUS_WOOD);
+	public static final RegistryObject<Item> CITRUS_LOG = block(SodaModBlocks.CITRUS_LOG);
+	public static final RegistryObject<Item> CITRUS_PLANKS = block(SodaModBlocks.CITRUS_PLANKS);
+	public static final RegistryObject<Item> CITRUS_STAIRS = block(SodaModBlocks.CITRUS_STAIRS);
+	public static final RegistryObject<Item> CITRUS_SLAB = block(SodaModBlocks.CITRUS_SLAB);
+	public static final RegistryObject<Item> CITRUS_FENCE = block(SodaModBlocks.CITRUS_FENCE);
+	public static final RegistryObject<Item> CITRUS_FENCE_GATE = block(SodaModBlocks.CITRUS_FENCE_GATE);
+	public static final RegistryObject<Item> CITRUS_PRESSURE_PLATE = block(SodaModBlocks.CITRUS_PRESSURE_PLATE);
+	public static final RegistryObject<Item> CITRUS_BUTTON = block(SodaModBlocks.CITRUS_BUTTON);
+	public static final RegistryObject<Item> LIME_LEAVES = block(SodaModBlocks.LIME_LEAVES);
+	public static final RegistryObject<Item> LIME = REGISTRY.register("lime", () -> new LimeItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

@@ -23,6 +23,15 @@ public class SodaModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(SodaModBlocks.ALUMINIUM_BLOCK.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_WOOD.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_LOG.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_PLANKS.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_STAIRS.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_SLAB.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_FENCE.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_FENCE_GATE.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_PRESSURE_PLATE.get().asItem());
+			tabData.accept(SodaModBlocks.CITRUS_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
 			tabData.accept(SodaModBlocks.CO_2_COLLECTOR.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
@@ -32,10 +41,13 @@ public class SodaModTabs {
 			tabData.accept(SodaModItems.BOTTLE_CAP.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(SodaModBlocks.ALUMINIUM_ORE.get().asItem());
+			tabData.accept(SodaModBlocks.LIME_LEAVES.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(SodaModItems.CO_2_CARTRIDGE.get());
 			tabData.accept(SodaModItems.CARTRIDGE.get());
 			tabData.accept(SodaModItems.GLASS_SODA_BOTTLE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+			tabData.accept(SodaModItems.LIME.get());
 		}
 	}
 }

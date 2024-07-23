@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "soda:block/citrus_pressure_plate"
+    },
+    "powered=true": {
+      "model": "soda:block/citrus_pressure_plate_down"
+    }
+  }
+}

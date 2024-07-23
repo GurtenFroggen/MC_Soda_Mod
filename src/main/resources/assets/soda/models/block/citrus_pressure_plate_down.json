@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "particle": "soda:block/citrus_planks",
+    "texture": "soda:block/citrus_planks"
+  },
+  "render_type": "solid"
+}

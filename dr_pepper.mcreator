@@ -21,11 +21,11 @@
       "registry_name": "aluminium_block",
       "metadata": {
         "files": [
-          "src/main/resources/data/soda/loot_tables/blocks/aluminium_block.json",
-          "src/main/resources/assets/soda/models/item/aluminium_block.json",
-          "src/main/resources/assets/soda/blockstates/aluminium_block.json",
           "src/main/java/net/mcreator/soda/block/AluminiumBlockBlock.java",
-          "src/main/resources/assets/soda/models/block/aluminium_block.json"
+          "src/main/resources/assets/soda/models/item/aluminium_block.json",
+          "src/main/resources/assets/soda/models/block/aluminium_block.json",
+          "src/main/resources/data/soda/loot_tables/blocks/aluminium_block.json",
+          "src/main/resources/assets/soda/blockstates/aluminium_block.json"
         ]
       }
     },
@@ -62,13 +62,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/soda/forge/biome_modifier/aluminium_ore_biome_modifier.json",
-          "src/main/resources/data/soda/worldgen/placed_feature/aluminium_ore.json",
-          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
           "src/main/resources/data/soda/worldgen/configured_feature/aluminium_ore.json",
+          "src/main/resources/assets/soda/models/block/aluminium_ore.json",
           "src/main/resources/data/soda/loot_tables/blocks/aluminium_ore.json",
           "src/main/resources/assets/soda/blockstates/aluminium_ore.json",
           "src/main/java/net/mcreator/soda/block/AluminiumOreBlock.java",
-          "src/main/resources/assets/soda/models/item/aluminium_ore.json"
+          "src/main/resources/assets/soda/models/item/aluminium_ore.json",
+          "src/main/resources/data/soda/worldgen/placed_feature/aluminium_ore.json"
         ]
       }
     },
@@ -167,11 +167,11 @@
       "registry_name": "co_2_collector",
       "metadata": {
         "files": [
+          "src/main/resources/assets/soda/models/item/co_2_collector.json",
+          "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
+          "src/main/java/net/mcreator/soda/block/entity/Co2CollectorBlockEntity.java",
           "src/main/resources/assets/soda/models/block/co_2_collector.json",
           "src/main/resources/data/soda/loot_tables/blocks/co_2_collector.json",
-          "src/main/java/net/mcreator/soda/block/Co2CollectorBlock.java",
-          "src/main/resources/assets/soda/models/item/co_2_collector.json",
-          "src/main/java/net/mcreator/soda/block/entity/Co2CollectorBlockEntity.java",
           "src/main/resources/assets/soda/blockstates/co_2_collector.json"
         ]
       }
@@ -364,8 +364,324 @@
       "metadata": {
         "files": [
           "src/main/resources/data/soda/worldgen/configured_feature/lime_tree.json",
-          "src/main/resources/data/soda/worldgen/placed_feature/lime_tree.json",
-          "src/main/resources/data/soda/forge/biome_modifier/lime_tree_biome_modifier.json"
+          "src/main/resources/data/soda/forge/biome_modifier/lime_tree_biome_modifier.json",
+          "src/main/resources/data/soda/worldgen/placed_feature/lime_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_wood.json",
+          "src/main/resources/assets/soda/blockstates/citrus_wood.json",
+          "src/main/java/net/mcreator/soda/block/CitrusWoodBlock.java",
+          "src/main/resources/assets/soda/models/block/citrus_wood.json",
+          "src/main/resources/assets/soda/models/item/citrus_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_log.json",
+          "src/main/resources/assets/soda/models/item/citrus_log.json",
+          "src/main/java/net/mcreator/soda/block/CitrusLogBlock.java",
+          "src/main/resources/assets/soda/blockstates/citrus_log.json",
+          "src/main/resources/assets/soda/models/block/citrus_log.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/citrus_planks.json",
+          "src/main/resources/assets/soda/blockstates/citrus_planks.json",
+          "src/main/java/net/mcreator/soda/block/CitrusPlanksBlock.java",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_planks.json",
+          "src/main/resources/assets/soda/models/item/citrus_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/block/CitrusStairsBlock.java",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_stairs.json",
+          "src/main/resources/assets/soda/models/block/citrus_stairs_outer.json",
+          "src/main/resources/assets/soda/models/block/citrus_stairs.json",
+          "src/main/resources/assets/soda/blockstates/citrus_stairs.json",
+          "src/main/resources/assets/soda/models/item/citrus_stairs.json",
+          "src/main/resources/assets/soda/models/block/citrus_stairs_inner.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/citrus_slab.json",
+          "src/main/resources/assets/soda/models/block/citrus_slab_full.json",
+          "src/main/resources/assets/soda/models/item/citrus_slab.json",
+          "src/main/resources/assets/soda/blockstates/citrus_slab.json",
+          "src/main/resources/assets/soda/models/block/citrus_slab_top.json",
+          "src/main/java/net/mcreator/soda/block/CitrusSlabBlock.java",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/citrus_fence.json",
+          "src/main/resources/assets/soda/models/block/citrus_fence_inventory.json",
+          "src/main/resources/assets/soda/blockstates/citrus_fence.json",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_fence.json",
+          "src/main/java/net/mcreator/soda/block/CitrusFenceBlock.java",
+          "src/main/resources/assets/soda/models/item/citrus_fence.json",
+          "src/main/resources/assets/soda/models/block/citrus_fence_post.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/soda/block/CitrusFenceGateBlock.java",
+          "src/main/resources/assets/soda/models/block/citrus_fence_gate_open.json",
+          "src/main/resources/assets/soda/models/item/citrus_fence_gate.json",
+          "src/main/resources/assets/soda/models/block/citrus_fence_gate.json",
+          "src/main/resources/assets/soda/models/block/citrus_fence_gate_wall.json",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_fence_gate.json",
+          "src/main/resources/assets/soda/blockstates/citrus_fence_gate.json",
+          "src/main/resources/assets/soda/models/block/citrus_fence_gate_wall_open.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/citrus_pressure_plate_down.json",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_pressure_plate.json",
+          "src/main/resources/assets/soda/blockstates/citrus_pressure_plate.json",
+          "src/main/resources/assets/soda/models/item/citrus_pressure_plate.json",
+          "src/main/java/net/mcreator/soda/block/CitrusPressurePlateBlock.java",
+          "src/main/resources/assets/soda/models/block/citrus_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/blockstates/citrus_button.json",
+          "src/main/java/net/mcreator/soda/block/CitrusButtonBlock.java",
+          "src/main/resources/assets/soda/models/item/citrus_button.json",
+          "src/main/resources/data/soda/loot_tables/blocks/citrus_button.json",
+          "src/main/resources/assets/soda/models/block/citrus_button_inventory.json",
+          "src/main/resources/assets/soda/models/block/citrus_button.json",
+          "src/main/resources/assets/soda/models/block/citrus_button_pressed.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "CitrusStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "citrus_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/recipes/citrus_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LimeLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/block/lime_leaves.json",
+          "src/main/java/net/mcreator/soda/block/LimeLeavesBlock.java",
+          "src/main/resources/assets/soda/blockstates/lime_leaves.json",
+          "src/main/resources/assets/soda/models/item/lime_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "Lime",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/soda/models/item/lime.json",
+          "src/main/java/net/mcreator/soda/item/LimeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LimeDrop",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_drop",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/soda/loot_tables/blocks/lime_leaves.json"
         ]
       }
     }
@@ -373,42 +689,74 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:LimeLeaves"
+    ],
+    "BLOCKS:minecraft:dirt": [],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Co2CollectorFull",
       "~CUSTOM:Co2Collector",
       "~CUSTOM:AluminiumOre",
       "~CUSTOM:AluminiumBlock"
     ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:CitrusPlanks",
+      "~CUSTOM:CitrusLog",
+      "~CUSTOM:CitrusWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:CitrusSlab"
+    ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:AluminiumOre",
       "~CUSTOM:AluminiumBlock"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:CitrusFence"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:CitrusStairs"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:CitrusLog"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.soda.aluminium_ore": "Aluminium Ore",
+      "block.soda.lime_leaves": "Lime Leaves",
       "item.soda.cartridge": "Cartridge",
       "item.soda.glass_soda_bottle": "Glass Soda Bottle",
       "item.dr_pepper.aluminium_nugget": "Aluminium Nugget",
-      "item.soda.aluminium_nugget": "Aluminium Nugget",
-      "block.soda.co_2_collector": "CO2 Collector",
+      "block.soda.citrus_fence_gate": "Citrus Fence Gate",
+      "block.soda.citrus_stairs": "Citrus Stairs",
+      "block.soda.citrus_button": "Citrus Button",
       "item.dr_pepper.cartridge": "Cartridge",
-      "item.dr_pepper.co_2_cartridge": "CO2 Cartridge",
-      "block.soda.aluminium_block": "Block of Aluminium",
-      "block.soda.co_2_collector_full": "CO2 Collector Full",
+      "block.soda.citrus_log": "Citrus Log",
       "block.dr_pepper.co_2_collector": "CO2 Collector",
-      "item.dr_pepper.raw_aluminium": "Raw Aluminium",
+      "block.soda.citrus_pressure_plate": "Citrus Pressure Plate",
+      "block.soda.citrus_wood": "Citrus Wood",
       "item.dr_pepper.glass_soda_bottle": "Glass Soda Bottle",
       "item.soda.aluminium_ingot": "Aluminium Ingot",
-      "block.dr_pepper.aluminium_block": "Block of Aluminium",
+      "block.soda.citrus_planks": "Citrus Planks",
       "item.soda.co_2_cartridge": "CO2 Cartridge",
-      "item.soda.raw_aluminium": "Raw Aluminium",
       "item.soda.bottle_cap": "Bottle Cap",
       "item.dr_pepper.aluminium_ingot": "Aluminium Ingot",
-      "block.dr_pepper.aluminium_ore": "Aluminium Ore",
       "block.dr_pepper.co_2_collector_full": "CO2 Collector Full",
-      "item.dr_pepper.bottle_cap": "Bottle Cap"
+      "item.dr_pepper.bottle_cap": "Bottle Cap",
+      "block.soda.citrus_fence": "Citrus Fence",
+      "item.soda.lime": "Lime",
+      "block.soda.aluminium_ore": "Aluminium Ore",
+      "block.soda.citrus_slab": "Citrus Slab",
+      "item.soda.aluminium_nugget": "Aluminium Nugget",
+      "block.soda.co_2_collector": "CO2 Collector",
+      "block.soda.aluminium_block": "Block of Aluminium",
+      "item.dr_pepper.co_2_cartridge": "CO2 Cartridge",
+      "block.soda.co_2_collector_full": "CO2 Collector Full",
+      "item.dr_pepper.raw_aluminium": "Raw Aluminium",
+      "block.dr_pepper.aluminium_block": "Block of Aluminium",
+      "item.soda.raw_aluminium": "Raw Aluminium",
+      "block.dr_pepper.aluminium_ore": "Aluminium Ore"
     }
   },
   "foldersRoot": {

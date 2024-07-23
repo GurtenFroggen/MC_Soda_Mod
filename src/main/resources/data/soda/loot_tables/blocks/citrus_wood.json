@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "soda:blocks/citrus_wood",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "soda:citrus_wood"
+        }
+      ]
+    }
+  ]
+}

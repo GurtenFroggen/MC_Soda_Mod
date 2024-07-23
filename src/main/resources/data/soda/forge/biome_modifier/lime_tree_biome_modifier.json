@@ -1,8 +1,10 @@
 {
   "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
+  "biomes": [
+    "jungle",
+    "sparse_jungle",
+    "bamboo_jungle"
+  ],
   "features": "soda:lime_tree",
-  "step": "surface_structures"
+  "step": "vegetal_decoration"
 }
